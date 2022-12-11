@@ -29,10 +29,8 @@ struct MeetingView: View {
         .padding()
         .foregroundColor(scrum.theme.accentColor)
         .onAppear {
-            print("555")
             scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
             scrumTimer.speakerChangedAction = {
-                print("1234")
                 player.seek(to: .zero)
                 player.play()
             }
