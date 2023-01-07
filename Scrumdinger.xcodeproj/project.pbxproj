@@ -177,7 +177,6 @@
 			children = (
 				CE2888D62945F9900030B283 /* Themes.swift */,
 				CE2888D82945FACD0030B283 /* DailyScrum.swift */,
-				CE2888DA2945FB8F0030B283 /* CardView.swift */,
 				CE05B7132946712500742390 /* ScrumTimer.swift */,
 				CE05B7172946757500742390 /* AVPlayer+Ding.swift */,
 				CE7BE52E294685A1005DFBE3 /* History.swift */,
@@ -198,6 +197,7 @@
 		CE2888DF29460DC20030B283 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE2888DA2945FB8F0030B283 /* CardView.swift */,
 				CE2888AD2945ECA50030B283 /* MeetingView.swift */,
 				CE2888E029460DD20030B283 /* ScrumsView.swift */,
 				CE05B70729462A9500742390 /* DetailView.swift */,
